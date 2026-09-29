@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jhulmar Bregonia, a student interested in web development and building software that simplifies everyday tasks."
+    />
+    <title>Jhulmar Bregonia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="top">
+    <a class="skip_link" href="#main">Skip to content</a>
+
+    <header class="navbar">
+      <div class="navbar_content">
+        <a href="#top" class="navbar_logo">Jhulmar Bregonia</a>
+
+        <button
+          class="navbar_toggle"
+          id="navToggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="navbarMenu"
+          aria-label="Toggle menu"
+        >
+          <span></span><span></span>
+        </button>
+
+        <nav id="navbarMenu" class="navbar_menu" aria-label="Main">
+          <ul class="navbar_list">
+            <li><a href="#home" class="navbar_link">Home</a></li>
+            <li><a href="#about" class="navbar_link">About</a></li>
+            <li><a href="#skills" class="navbar_link">Skills</a></li>
+            <li><a href="#projects" class="navbar_link">Projects</a></li>
+            <li>
+              <a href="#currently_learning" class="navbar_link">Learning</a>
+            </li>
+            <li><a href="#contact" class="navbar_link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero">
+        <div class="hero_text">
+          <p class="hero_hello">Hi, I'm</p>
+          <h1 class="hero_name">Jhulmar Bregonia</h1>
+          <p class="hero_lead">
+            I'm a student interested in web development and building software
+            that makes everyday tasks simpler and more efficient.
+          </p>
+          <div class="hero_actions">
+            <a href="#projects" class="btn btn_primary">See my projects</a>
+            <a href="#contact" class="btn btn_ghost">Get in touch</a>
+          </div>
+        </div>
+        <figure class="hero_photo">
+          <img
+            src="images/profile.jpg"
+            alt="Jhulmar Bregonia sitting in a café, looking to the side"
+            width="1000"
+            height="1334"
+          />
+        </figure>
+      </section>
+
+      <section id="about" class="section">
+        <h2 class="section_title">About me</h2>
+        <div class="about_body">
+          <p>
+            I'm interested in creating practical web-based systems that reduce
+            repetitive work and improve everyday workflows.
+          </p>
+          <p>
+            I enjoy seeing how software can turn manual processes into something
+            more organized and efficient.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <h2 class="section_title">Skills</h2>
+        <div class="skills_grid">
+          <div class="skills_group">
+            <h3 class="group_title">Currently comfortable with</h3>
+            <ul class="chips">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+          <div class="skills_group">
+            <h3 class="group_title">Familiar with</h3>
+            <ul class="chips chips_soft">
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>Databases</li>
+              <li>Git/GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2 class="section_title">Projects</h2>
+        <div class="project_list">
+          <article class="project">
+            <div class="project_meta">
+              <span class="project_kind">School project</span>
+            </div>
+            <div class="project_main">
+              <h3 class="project_title">Clinic Appointment System</h3>
+              <p>
+                A school project designed to organize clinic appointments and
+                reduce manual scheduling. The system uses a database to manage
+                appointment-related information.
+              </p>
+              <ul class="tags">
+                <li>Scheduling</li>
+                <li>Database</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project_meta">
+              <span class="project_kind">School project</span>
+            </div>
+            <div class="project_main">
+              <h3 class="project_title">
+                Coffee Shop POS &amp; Pre-Ordering System
+              </h3>
+              <p>
+                A school project for a coffee shop that combines point-of-sale
+                functionality with online pre-ordering. The system helps staff
+                record sales, manage orders, inventory, and print recipes while
+                allowing customers to place orders in advance.
+              </p>
+              <ul class="tags">
+                <li>Point of sale</li>
+                <li>Pre-ordering</li>
+                <li>Inventory</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="currently_learning" class="section">
+        <h2 class="section_title">Currently learning</h2>
+        <ul class="learning_list">
+          <li>JavaScript fundamentals</li>
+          <li>PHP fundamentals</li>
+          <li>Database-driven web applications</li>
+          <li>Building projects independently</li>
+          <li>Git/GitHub workflow</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- ============================================================
+         FOOTER / CONTACT  (this is the section your Contact link opens)
+         Replace the two placeholder links below with your own:
+           1. EMAIL  -> the href="mailto:..." line
+           2. GITHUB -> the href="https://github.com/..." line
+         ============================================================ -->
+    <footer id="contact" class="footer">
+      <div class="footer_inner">
+        <div class="footer_intro">
+          <h2 class="footer_title">Let's work together</h2>
+          <p>
+            Have a project in mind or want to say hello? Send me a message or
+            take a look at my code.
+          </p>
+        </div>
+
+        <ul class="footer_links">
+          <li>
+            <!-- ✏️ EDIT HERE: put your email address after "mailto:" -->
+            <a href="mailto:bregonia.jhulamr24@gmail.com" id="emailLink">
+              <span class="footer_label">Email</span>
+              <span class="footer_value">bregonia.jhulamr24@gmail.com</span>
+            </a>
+            <button type="button" class="copy_btn" id="copyEmail">Copy</button>
+          </li>
+          <li>
+            <!-- ✏️ EDIT HERE: put your GitHub profile URL in href -->
+            <a
+              href="https://github.com/jhulmar-devtest"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="footer_label">GitHub</span>
+              <span class="footer_value">github.com/jhulmar-devtest</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <p class="footer_note">
+        &copy; <span id="year">2026</span> Jhulmar Bregonia
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
