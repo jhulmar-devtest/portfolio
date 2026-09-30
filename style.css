@@ -415,6 +415,10 @@ main {
   max-width: 40em;
   color: var(--muted);
 }
+.project_role {
+  margin-top: 14px;
+  font-size: 0.95rem;
+}
 
 .tags {
   display: flex;
