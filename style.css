@@ -446,6 +446,15 @@ main {
   background: var(--ink);
   color: #fff;
 }
+.project_links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+.project_links .project_link {
+  margin-top: 0;
+}
 
 /* ---------- Currently learning ---------- */
 .learning_list {
