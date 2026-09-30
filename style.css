@@ -430,6 +430,22 @@ main {
   background: var(--accent-soft);
   color: var(--accent);
 }
+.project_link {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1.5px solid var(--ink);
+  font-weight: 600;
+  font-size: 0.92rem;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+.project_link:hover {
+  background: var(--ink);
+  color: #fff;
+}
 
 /* ---------- Currently learning ---------- */
 .learning_list {
